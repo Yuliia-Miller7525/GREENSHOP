@@ -33,6 +33,13 @@ img {
   gap: 12px;
   font-size: 20px;
   font-weight: 500;
+  display: flex;
+  justify-content: сenter;
+}
+.close {
+  width: 18px;
+  height: 18px;
+  color: #46a358;
 }
 .login-main,
 .register-main {
@@ -154,6 +161,9 @@ input {
   align-items: center;
   padding-left: 17px;
   padding-right: 17px;
+  color: #ffffff;
+}
+.login-button-link {
   color: #ffffff;
 }
 .login-icon {
