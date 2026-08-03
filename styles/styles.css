@@ -17,6 +17,11 @@ img {
 }
 
 /* ---------------------------- Login and Register page START ----------------------------*/
+.login-body {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .login-link,
 .register-link {
   color: #46a358;
@@ -26,15 +31,22 @@ img {
 }
 .login-header,
 .register-header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.login-register-links {
   max-width: 157px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 52px;
+  margin-left: 172px;
   gap: 12px;
   font-size: 20px;
   font-weight: 500;
-  display: flex;
-  justify-content: сenter;
+  text-align: center;
+}
+.close button {
+  margin-top: 13px;
+  margin-left: 469px;
 }
 .close {
   width: 18px;
@@ -46,6 +58,7 @@ img {
   max-width: 300px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
 }
 main p {
   font-size: 13px;
@@ -93,6 +106,7 @@ input {
 .register-footer {
   height: 10px;
   background-color: #46a358;
+  margin-top: 40px;
 }
 /* ---------------------------- Login and Register page END ----------------------------- */
 
@@ -114,6 +128,7 @@ input {
   text-align: center;
 }
 .header-nav-list {
+  height: 45px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -126,7 +141,7 @@ input {
 .header-nav-item a {
   color: #3d3d3d;
 }
-.header-nav-item :hover {
+.header-nav-item:hover {
   color: #3d3d3d;
   border-bottom: 3px solid #46a358;
   font-weight: 700;
