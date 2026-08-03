@@ -4,11 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GREENSHOP</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header class="header container">
+      <div class="logo">
+        <img src="./images/Logo.svg" alt="Logo" />
+      </div>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item"><a href="#">Home</a></li>
+          <li class="header-nav-item"><a href="#">Shop</a></li>
+          <li class="header-nav-item"><a href="#">Plant care</a></li>
+          <li class="header-nav-item"><a href="#">Blogs</a></li>
+        </ul>
+      </nav>
+      <div class="header-icons">
+        <img
+          class="header-icon1"
+          src="./images/dandruff.svg"
+          alt="Search Icon"
+        />
+        <img class="header-icon2" src="./images/basket.svg" alt="Basket Icon" />
+        <button class="login-button">
+          <img class="login-icon" src="./images/Logout.svg" alt="Login Icon" />
+          <a class="login-button-link" href="login.html">Login</a>
+        </button>
+      </div>
+    </header>
+    <main class="main container">
+      <section class="main-section">
+        <div class="main-text">
+          <p class="greetings">Welcome to GreenShop</p>
+          <h1>
+            Let’s Make a Better
+            <span class="highlight">Planet</span>
+          </h1>
+          <p class="description">
+            We are an online plant shop offering a wide range of cheap and
+            trendy plants. Use our plants to create an unique Urban Jungle.
+            Order your favorite plants!
+          </p>
+          <button class="main-section-button">Shop Now</button>
+        </div>
+        <div class="main-image">
+          <img src="./images/Group25.png" alt="Plant" />
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
