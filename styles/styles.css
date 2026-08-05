@@ -289,3 +289,127 @@ h1 {
   text-align: right;
 }
 /* ---------------------------- Main Section END ----------------------------*/
+
+/*---------------------------- Second Section START ----------------------------*/
+.left-article {
+  float: left;
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+}
+.right-article {
+  float: right;
+  max-width: 840px;
+  display: flex;
+  flex-direction: column;
+}
+.categories {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  gap: 7px;
+  height: 774px;
+  background-color: #fbfbfb;
+}
+.categories-title {
+  max-width: 93px;
+  margin-top: 14px;
+  margin-left: 18px;
+  font-family: Cera Pro;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: #3d3d3d;
+}
+.categories-list {
+  max-width: 91px;
+  margin-left: 30px;
+  list-style: none;
+  font-family: Cera Pro;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+.categories-item {
+  color: #3d3d3d;
+}
+.categories-item:hover {
+  color: #46a358;
+  font-weight: 700;
+}
+.super-sale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.super-sale-text {
+  font-family: Cera Pro;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: #3d3d3d;
+  text-align: center;
+}
+.catalog {
+  display: inline-block;
+  width: 100%;
+  gap: 30px;
+}
+.catalog-item-image {
+  width: 250px;
+  height: 250px;
+}
+.catalog-item-name {
+  font-family: Cera Pro;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: #3d3d3d;
+  margin-top: 40px;
+}
+.catalog-item-price {
+  font-family: Cera Pro;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: #46a358;
+  margin-top: 6px;
+}
+.page-switch {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
+  gap: 10px;
+  margin-top: 90px;
+  clear: both;
+}
+.page-button {
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: none;
+  color: #3d3d3d;
+  border: 1px solid #e5e5e5;
+  font-family: Cera Pro;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 16px;
+}
+.page-button:hover {
+  background-color: #46a358;
+  color: #ffffff;
+  font-weight: 700;
+}
+/*---------------------------- Second Section END ----------------------------*/
