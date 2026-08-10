@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GREENSHOP</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
@@ -26,10 +27,16 @@
           alt="Search Icon"
         />
         <img class="header-icon2" src="./images/basket.svg" alt="Basket Icon" />
-        <button class="login-button">
-          <img class="login-icon" src="./images/Logout.svg" alt="Login Icon" />
-          <a class="login-button-link" href="login.html">Login</a>
-        </button>
+        <div class="login-button">
+          <a class="login-button-link" href="login.html">
+            <img
+              class="login-icon"
+              src="./images/Logout.svg"
+              alt="Login Icon"
+            />
+            <p>Login</p>
+          </a>
+        </div>
       </div>
     </header>
     <main class="main container">
@@ -49,6 +56,210 @@
         </div>
         <div class="main-image">
           <img src="./images/Group25.png" alt="Plant" />
+        </div>
+      </section>
+      <section class="second-section">
+        <article class="left-article">
+          <div class="left-article-top">
+            <div class="categories">
+              <h4 class="categories-title">Categories</h4>
+              <div class="categories-list">
+                <ul class="ul-categories-list">
+                  <li class="categories-item">
+                    <span class="span-name">House Plants</span>
+                    <span class="span-number">(33)</span>
+                  </li>
+                  <li class="categories-item">
+                    <span class="span-name">Potter Plants</span>
+                    <span class="span-number">(12)</span>
+                  </li>
+                  <li class="categories-item">
+                    <span class="span-name">Seeds</span>
+                    <span class="span-number">(65)</span>
+                  </li>
+                  <li class="categories-item">
+                    <span class="span-name">Small Plants</span>
+                    <span class="span-number">(39)</span>
+                  </li>
+                  <li class="categories-item">
+                    <span class="span-name">Big Plants</span>
+                    <span class="span-number">(23)</span>
+                  </li>
+                  <li class="categories-item">
+                    <span class="span-name">Succulents</span>
+                    <span class="span-number">(17)</span>
+                  </li>
+                  <li class="categories-item">
+                    <span class="span-name">Terrariums</span>
+                    <span class="span-number">(19)</span>
+                  </li>
+                  <li class="categories-item">
+                    <span class="span-name">Gardening</span>
+                    <span class="span-number">(13)</span>
+                  </li>
+                  <li class="categories-item">
+                    <span class="span-name">Accessories</span>
+                    <span class="span-number">(18)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="Price-Range">
+              <h4 class="Price-Range-title">Price Range</h4>
+              <div class="Price-Range-content">
+                <form class="Price-Range-form">
+                  <input
+                    class="Price-Range-slider"
+                    type="range"
+                    min="39"
+                    max="1230"
+                  />
+                </form>
+                <p class="Price-Range-description">
+                  Price:
+                  <span class="Price-Range-price">$39 - $1230</span>
+                </p>
+                <button class="Price-Range-button" type="submit">Filter</button>
+              </div>
+            </div>
+            <div class="Size">
+              <h4 class="Size-title">Size</h4>
+              <div class="Size-list">
+                <ul class="ul-Size-list">
+                  <li class="Size-item">
+                    <span class="span-name">Small</span>
+                    <span class="span-number">(119)</span>
+                  </li>
+                  <li class="Size-item">
+                    <span class="span-name">Medium</span>
+                    <span class="span-number">(86)</span>
+                  </li>
+                  <li class="Size-item">
+                    <span class="span-name">Large</span>
+                    <span class="span-number">(78)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="super-sale">
+            <img
+              class="super-sale-image"
+              src="./images/Super_Sale.png"
+              alt="Super Sale"
+            />
+            <p class="super-sale-text">UP TO 75% OFF</p>
+            <img
+              class="super-sale-plant"
+              src="./images/plant.png"
+              alt="Plant"
+            />
+          </div>
+        </article>
+        <article class="right-article">
+          <div class="menu">
+            <ul class="menu-list">
+              <li class="menu-item">All Plants</li>
+              <li class="menu-item">New Arrivals</li>
+              <li class="menu-item">Sale</li>
+            </ul>
+            <form class="menu-filters">
+              <label class="filter-label">Sort by:</label>
+              <select class="filter-select">
+                <option class="filter-option">Default sorting</option>
+              </select>
+            </form>
+          </div>
+          <div class="catalog">
+            <div class="catalog-item">
+              <img
+                class="catalog-item-image"
+                src="./images/plant_1.png"
+                alt="Barberton Daisy"
+              />
+              <p class="catalog-item-name">Barberton Daisy</p>
+              <p class="catalog-item-price first">$119.00</p>
+            </div>
+            <div class="catalog-item">
+              <img
+                class="catalog-item-image"
+                src="./images/plant_2.png"
+                alt="Angel Wing Begonia"
+              />
+              <p class="catalog-item-name">Angel Wing Begonia</p>
+              <p class="catalog-item-price second">$169.00</p>
+            </div>
+            <div class="catalog-item">
+              <img
+                class="catalog-item-image"
+                src="./images/plant_3.png"
+                alt="African Violet"
+              />
+              <p class="catalog-item-name">African Violet</p>
+              <p class="catalog-item-price third">$199.00</p>
+            </div>
+            <div class="catalog-item">
+              <img
+                class="catalog-item-image"
+                src="./images/plant_4.png"
+                alt="Beach Spider Lily"
+              />
+              <p class="catalog-item-name">Beach Spider Lily</p>
+              <p class="catalog-item-price fourth">$129.00</p>
+            </div>
+            <div class="catalog-item">
+              <img
+                class="catalog-item-image"
+                src="./images/plant_5.png"
+                alt="Blushing Bromeliad"
+              />
+              <p class="catalog-item-name">Blushing Bromeliad</p>
+              <p class="catalog-item-price fifth">$139.00</p>
+            </div>
+            <div class="catalog-item">
+              <img
+                class="catalog-item-image"
+                src="./images/plant_6.png"
+                alt="Aluminum Plant"
+              />
+              <p class="catalog-item-name">Aluminum Plant</p>
+              <p class="catalog-item-price sixth">$179.00</p>
+            </div>
+            <div class="catalog-item">
+              <img
+                class="catalog-item-image"
+                src="./images/plant_7.png"
+                alt="Bird's Nest Fern"
+              />
+              <p class="catalog-item-name">Bird's Nest Fern</p>
+              <p class="catalog-item-price seventh">$99.00</p>
+            </div>
+            <div class="catalog-item">
+              <img
+                class="catalog-item-image"
+                src="./images/plant_8.png"
+                alt="Broadleaf Lady Palm"
+              />
+              <p class="catalog-item-name">Broadleaf Lady Palm</p>
+              <p class="catalog-item-price eighth">$59.00</p>
+            </div>
+            <div class="catalog-item">
+              <img
+                class="catalog-item-image"
+                src="./images/plant_9.png"
+                alt="Chinese Evergreen"
+              />
+              <p class="catalog-item-name">Chinese Evergreen</p>
+              <p class="catalog-item-price ninth">$39.00</p>
+            </div>
+          </div>
+        </article>
+        <div class="page-switch">
+          <button class="page-button">1</button>
+          <button class="page-button">2</button>
+          <button class="page-button">3</button>
+          <button class="page-button">4</button>
+          <button class="page-button">&rsaquo;</button>
         </div>
       </section>
     </main>
