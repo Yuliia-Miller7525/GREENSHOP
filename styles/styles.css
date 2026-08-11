@@ -537,26 +537,29 @@ h1 {
 .find-more-left {
   width: 100%;
   max-width: 586px;
-  display: flex;
-  justify-content: space-between;
+  background-color: #fbfbfb;
+  position: relative;
+  padding: 37px 30px 46px 0;
 }
 .plant-left {
   width: 100%;
   max-width: 287px;
-  height: 292px;
+  position: absolute;
+  left: 0;
+  top: -52px;
 }
 .plant-right {
   width: 100%;
   max-width: 289px;
-  height: 287px;
-  margin-top: 7px;
+  position: absolute;
+  left: 0;
+  top: -45px;
 }
 .find-more-left-txt,
 .find-more-right-txt {
   background-color: #fbfbfb;
   text-align: right;
   margin-right: 30px;
-  margin-top: 52px;
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -571,7 +574,6 @@ h1 {
   letter-spacing: 0%;
   text-transform: uppercase;
   color: #3d3d3d;
-  margin-top: 37px;
 }
 .find-more-left-description,
 .find-more-right-description {
