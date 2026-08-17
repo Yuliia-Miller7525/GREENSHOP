@@ -213,9 +213,13 @@ button {
 .header-nav-item {
   position: relative;
   border: 3px solid transparent;
+  padding-bottom: 25px;
 }
-.header-nav-link {
+.header-nav-link,
+.header-sub-link,
+.header-subsub-link {
   color: #3d3d3d;
+  white-space: nowrap;
 }
 .header-nav-item:hover {
   border-bottom: 3px solid #46a358;
@@ -273,7 +277,7 @@ button {
 }
 .header-subsub-list {
   display: none;
-  width: 178px;
+  width: 195px;
   background-color: #edf6ee;
   position: absolute;
   left: calc(100% + 2px);
@@ -285,7 +289,6 @@ button {
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
-  color: #3d3d3d;
 }
 .header-subsub-item {
   padding-left: 14px;
@@ -298,6 +301,7 @@ button {
 .header-subsub-item:hover {
   background-color: #1a712a;
   font-weight: 700;
+  padding-right: 17px;
 }
 .header-subsub-item:hover .header-subsub-link {
   color: #ffffff;
