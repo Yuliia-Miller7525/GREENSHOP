@@ -875,9 +875,9 @@ h1 {
   flex-direction: column;
   width: 100%;
   margin-top: 100px;
+  background-color: #fbfbfb;
 }
 .footer-top {
-  background-color: #fbfbfb;
   display: flex;
   justify-content: space-between;
   margin: 24px 25px;
@@ -988,7 +988,6 @@ h1 {
   color: #3d3d3d;
 }
 .footer-bottom {
-  background-color: #fbfbfb;
   display: flex;
   flex-direction: row;
   gap: 160px;
