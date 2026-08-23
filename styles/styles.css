@@ -90,13 +90,24 @@ main {
   color: #3d3d3d;
   width: 100%;
 }
+.form {
+  margin-top: 14px;
+}
 input,
 button {
   width: 100%;
 }
+.password {
+  position: relative;
+  margin-top: 16px;
+}
+.password img {
+  position: absolute;
+  left: 265px;
+  top: 13px;
+}
 .form-input {
-  padding: 0 14px;
-  height: 40px;
+  padding: 12px 14px;
   border-radius: 5px;
   font-size: 14px;
   font-weight: 400;
@@ -106,11 +117,14 @@ button {
 .form-input[placeholder] {
   color: #a5a5a5;
 }
+.enter-email {
+  margin-top: 16px;
+}
 .primary-btn {
+  margin-top: 41px;
+  padding: 13px;
   background-color: #46a358;
   color: #ffffff;
-  border: none;
-  height: 45px;
   font-size: 16px;
   font-weight: 700;
   border: none;
@@ -129,6 +143,7 @@ button {
   border: 1px solid;
   border: 1px solid #eaeaea;
   padding: 10px 68px;
+  margin-top: 27px;
 }
 .login-btn-facebook {
   display: inline-flex;
@@ -141,12 +156,17 @@ button {
   background-color: transparent;
   border: 1px solid #eaeaea;
   padding: 10px 63px;
+  margin-top: 15px;
 }
 .login-footer,
 .register-footer {
   height: 10px;
   background-color: #46a358;
   margin-top: 40px;
+}
+.login-p,
+.register-p {
+  margin-top: 36px;
 }
 .login-p::before {
   content: "";
@@ -183,7 +203,7 @@ button {
 /* ---------------------------- Login and Register page END ----------------------------- */
 
 /* ---------------------------- Header START ----------------------------*/
-.header {
+.header .container {
   margin-top: 30px;
   border-bottom: 1px solid #46a35880;
   display: flex;
@@ -350,29 +370,28 @@ button {
 /* ---------------------------- Header END ----------------------------*/
 
 /* ---------------------------- Main Section START ----------------------------*/
-.main-section {
+.main-section .container {
   margin-top: 12px;
   background-color: #f5f5f580;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .main-text {
   margin-left: 40px;
+  width: 100%;
+  max-width: 557px;
 }
 .greetings {
-  width: 100%;
-  max-width: 205px;
   margin-top: 68px;
   color: #3d3d3d;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 10%;
   text-transform: uppercase;
 }
 h1 {
-  width: 100%;
-  max-width: 530px;
   margin-top: 7px;
   color: #3d3d3d;
   font-weight: 900;
@@ -385,7 +404,6 @@ h1 {
   color: #46a358;
 }
 .description {
-  max-width: 557px;
   margin-top: 5px;
   color: #727272;
   font-weight: 400;
@@ -394,6 +412,7 @@ h1 {
   letter-spacing: 0%;
 }
 .main-section-button {
+  width: 100%;
   max-width: 140px;
   height: 40px;
   margin-top: 44px;
@@ -417,24 +436,19 @@ h1 {
 /* ---------------------------- Main Section END ----------------------------*/
 
 /*---------------------------- Second Section START ----------------------------*/
-.second-section {
+.second-section-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
   margin-top: 26px;
 }
-.left-article {
-  float: left;
+.second-section-left {
   max-width: 310px;
   display: flex;
   flex-direction: column;
 }
-.right-article {
-  float: right;
-  width: 100%;
-  max-width: 840px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 50px;
-}
-.left-article-top {
+.left-top {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -473,14 +487,11 @@ h1 {
   letter-spacing: 0%;
   color: #3d3d3d;
 }
-.Price-Range-title,
-.Size-title {
-  margin-top: 0px;
-}
 .categories-list,
 .Size-list,
 .Price-Range-content {
   margin-left: 30px;
+  margin-right: 24px;
 }
 .categories-item,
 .Size-item {
@@ -501,19 +512,22 @@ h1 {
 .Price-Range-description {
   margin-top: 21px;
 }
+.Price-Range-slider {
+  width: 100%;
+  max-width: 209px;
+}
 .Price-Range-price {
   font-weight: 700;
   color: #46a358;
 }
 .Price-Range-button {
+  width: 100%;
   max-width: 90px;
-  height: 35px;
   margin-top: 16px;
   padding: 8px 26px;
   border-radius: 6px;
   background-color: #46a358;
   border: none;
-  font-family: Cera Pro;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -522,11 +536,11 @@ h1 {
   color: #ffffff;
 }
 .super-sale {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   background-image: url("../images/background.png");
   background-size: cover;
   background-position: center;
@@ -541,10 +555,18 @@ h1 {
   text-align: center;
   margin-top: 11px;
 }
+.second-section-right {
+  width: 100%;
+  max-width: 840px;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
 .menu {
   display: flex;
   justify-content: space-between;
   gap: 385px;
+  background-color: #fbfbfb;
 }
 .menu-list {
   display: flex;
@@ -588,16 +610,13 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 840px;
   gap: 38px;
-  margin-top: 31px;
-  margin-bottom: 75px;
 }
 .catalog-item {
   width: 100%;
   max-width: 254px;
   border: 1px solid transparent;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   position: relative;
 }
 .catalog-item:hover {
@@ -675,14 +694,14 @@ h1 {
 .page-switch {
   display: flex;
   justify-content: flex-end;
-  max-width: 100%;
   gap: 10px;
-  clear: both;
+  margin-top: 75px;
 }
 .page-button {
   text-align: center;
-  width: 35px;
-  height: 35px;
+  width: 100%;
+  max-width: 35px;
+  padding: 10px 6px 9px 6px;
   border-radius: 4px;
   background-color: transparent;
   color: #3d3d3d;
@@ -699,7 +718,7 @@ h1 {
 /*---------------------------- Second Section END ----------------------------*/
 
 /*---------------------------- Third Section START ----------------------------*/
-.third-section {
+.third-section .container {
   margin-top: 94px;
   display: flex;
   flex-direction: column;
@@ -870,11 +889,13 @@ h1 {
 /*---------------------------- Third Section END ----------------------------*/
 
 /* ---------------------------- Footer START ----------------------------*/
-.footer {
+.footer .container {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-top: 100px;
+}
+.footer-main {
   background-color: #fbfbfb;
 }
 .footer-top {
@@ -1035,7 +1056,7 @@ h1 {
 .we-accept-img {
   margin-top: 13px;
 }
-.footer-copyright {
+.copyright {
   text-align: center;
   font-weight: 400;
   font-size: 14px;

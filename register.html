@@ -23,40 +23,32 @@
     </header>
     <main class="register-main">
       <p class="register-main-p">Enter your email and password to register.</p>
-      <br />
-      <form>
+      <form class="form">
         <input class="form-input" type="text" placeholder="Username" />
-        <br />
-        <br />
         <input
-          class="form-input"
+          class="form-input enter-email"
           type="email"
           placeholder="Enter your email address"
         />
-        <br />
-        <br />
-        <input class="form-input" type="password" placeholder="Password" />
-        <br />
-        <br />
-        <input
-          class="form-input"
-          type="password"
-          placeholder="Confirm Password"
-        />
-        <br />
-        <br />
-        <button class="primary-btn">Register</button>
-        <br />
-        <br />
+        <div class="password">
+          <input class="form-input" type="password" placeholder="Password" />
+          <img src="./images/Hide.svg" />
+        </div>
+        <div class="password">
+          <input
+            class="form-input"
+            type="password"
+            placeholder="Confirm password"
+          />
+          <img src="./images/Hide.svg" />
+        </div>
+        <button class="primary-btn" type="submit">Register</button>
       </form>
       <p class="register-p">Or register with</p>
-      <br />
       <button class="login-btn-google">
         <img src="./images/google1.svg" width="20px" height="20px" />
         Continue with Google
       </button>
-      <br />
-      <br />
       <button class="login-btn-facebook">
         <img src="./images/Vector.svg" width="20px" height="20px" />
         Continue with Facebook
