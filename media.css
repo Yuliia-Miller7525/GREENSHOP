@@ -522,4 +522,43 @@
 }
 
 @media (max-width: 1024px) {
+  .second-section-top {
+    gap: 15px;
+  }
+  .second-section-left {
+    max-width: 250px;
+  }
+  .categories-list,
+  .Size-list,
+  .Price-Range-content {
+    margin-left: 15px;
+    margin-right: 4px;
+  }
+  .menu-list {
+    gap: 30px;
+  }
+  .catalog {
+    gap: 30px 5px;
+  }
+  .plant-left {
+    left: -35px;
+  }
+  .plant-right {
+    left: -65px;
+  }
+  .cards {
+    gap: 15px;
+  }
+  .card-txt {
+    max-width: 230px;
+  }
+  .footer-top-right {
+    margin-left: 32px;
+  }
+  .footer-center {
+    gap: 85px;
+  }
+  .footer-bottom {
+    gap: 120px;
+  }
 }

@@ -617,7 +617,6 @@ h1 {
 .menu {
   display: flex;
   justify-content: space-between;
-  gap: 385px;
   background-color: #fbfbfb;
 }
 .menu-list {
