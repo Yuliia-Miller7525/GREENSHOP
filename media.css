@@ -391,6 +391,134 @@
 }
 
 @media (max-width: 768px) {
+  .logo {
+    max-width: 135px;
+  }
+  .header-nav {
+    max-width: 280px;
+  }
+  .header-nav-list {
+    gap: 15px;
+  }
+  .header-icons {
+    gap: 20px;
+  }
+  .header-icon1 {
+    width: 15px;
+    height: 15px;
+  }
+  .header-icon2 {
+    width: 24px;
+    height: 19px;
+  }
+  .login-button-link {
+    max-width: 90px;
+    padding: 7px 12px 8px 12px;
+    font-size: 15px;
+  }
+  .login-icon {
+    width: 18px;
+    height: 18px;
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .main-section-button {
+    max-width: 120px;
+    margin-top: 34px;
+    padding: 3px 15px;
+    font-size: 14px;
+    line-height: 15px;
+    white-space: nowrap;
+  }
+  .main-image {
+    padding-top: 120px;
+  }
+  .second-section-top {
+    gap: 15px;
+  }
+  .second-section-left {
+    max-width: 200px;
+  }
+  .categories-list,
+  .Size-list,
+  .Price-Range-content {
+    margin-left: 15px;
+    margin-right: 4px;
+  }
+  .categories-item,
+  .Size-item {
+    line-height: 35px;
+  }
+  .menu {
+    gap: 15px;
+  }
+  .menu-list {
+    gap: 20px;
+  }
+  .catalog {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+  }
+  .find-more-right,
+  .find-more-left {
+    padding: 0 0;
+  }
+  .find-more-left-txt,
+  .find-more-right-txt {
+    margin-right: 10px;
+  }
+  .plant-left {
+    max-width: 187px;
+    top: -15px;
+    left: -5px;
+  }
+  .plant-right {
+    max-width: 189px;
+    top: -10px;
+    left: -15px;
+  }
+  .find-more-left-description,
+  .find-more-right-description {
+    max-width: 230px;
+  }
+  .cards {
+    gap: 2px;
+  }
+  .data-txt {
+    font-size: 13px;
+  }
+  .card-description {
+    font-size: 12px;
+  }
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-top-right {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-center {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .footer-bottom {
+    flex-wrap: wrap;
+    gap: 30px 120px;
+  }
+  .location-txt,
+  .email-txt,
+  .tel-txt {
+    font-size: 16px;
+  }
+  .footer-location {
+    max-width: 230px;
+  }
 }
 
 @media (max-width: 1024px) {
