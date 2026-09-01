@@ -277,6 +277,7 @@
   }
   .find-more {
     flex-direction: column;
+    gap: 30px;
   }
   .find-more-right,
   .find-more-left {
@@ -286,7 +287,6 @@
   .plant-right {
     display: none;
   }
-
   .find-more-left-txt {
     background-image: url(./images/Plant_left.png);
     background-repeat: no-repeat;
@@ -394,6 +394,7 @@
   }
   .burger {
     display: block;
+    margin-bottom: 10px;
   }
   #burger-checkbox {
     display: block;
@@ -442,11 +443,18 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .categories-list,
+  .Size-list,
+  .Price-Range-content {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
   .Price-Range-content {
     text-align: center;
   }
   .menu {
     gap: 20px;
+    padding: 0 5px;
   }
   .menu-list {
     gap: 10px;
@@ -469,11 +477,23 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .catalog-item:hover {
+    border: 1px solid #46a358;
+  }
   .catalog-item p {
     text-align: center;
   }
+  .catalog-item-image {
+    width: 250px;
+    height: 250px;
+  }
+  .catalog-item-icons {
+    left: 67px;
+    bottom: 7px;
+  }
   .find-more {
     flex-direction: column;
+    gap: 30px;
   }
   .find-more-right,
   .find-more-left {
@@ -483,20 +503,21 @@
   .plant-right {
     display: none;
   }
-
   .find-more-left-txt {
+    margin-right: 40px;
     background-image: url(./images/Plant_left.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
   .find-more-right-txt {
+    margin-right: 40px;
     background-image: url(./images/Plant_right.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
   .find-more-left-description,
   .find-more-right-description {
-    max-width: 150px;
+    max-width: 200px;
     font-size: 12px;
   }
   .third-section .container {
